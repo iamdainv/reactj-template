@@ -15,7 +15,7 @@ function App() {
           max={100}
         />
         <a
-          className="App-link"
+          className="App-linkk"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
