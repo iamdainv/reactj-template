@@ -1,28 +1,10 @@
 import "./App.css";
-import logo from "./logo.svg";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <progress
-          // className={classNames(styles['ud-progress'], className)}
-          value={50}
-          max={100}
-        />
-        <a
-          className="App-linkk"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HomePage />
     </div>
   );
 }

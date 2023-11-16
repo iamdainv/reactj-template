@@ -1,7 +1,15 @@
 {
   "rules": {
     "object-literal-sort-keys": false,
-    "quotemark": [true, "double", "jsx-double"]
+    "quotemark": [true, "double", "jsx-double"],
+    "no-console": true,
+    "no-restricted-syntax": [
+        "error",
+        {
+            "selector": "CallExpression[callee.object.name='console'][callee.property.name!=/^(log|warn|error|info|trace)$/]",
+            "message": "Unexpected property on console object was called"
+        }
+    ]
   },
   "rulesDirectory": []
 }
